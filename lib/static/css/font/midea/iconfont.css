@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont-midea";
+  src: url('iconfont.eot?t=1599181519125'); /* IE9 */
+  src: url('iconfont.eot?t=1599181519125#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAASgAAsAAAAACZwAAARSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqGLIUQATYCJAMMCwgABCAFhTUHRhsuCFGUzU2K7EvIyYYXESBS2ThW3DM/e17HQK0Ur44AAwAgOS0ACwAA8fA19r9zd/ftV0nuJJckIokSXmNIvNCgEhniL4HpRNGQ8Hnn8tMx6Yzo0A2YC0mbg6QvzQ2wbkBuCi2Q0PxJfkfCA6o//3PtxCQhFhqPkuz/rSFmaZcwOxONVNK0RCKJXEGqt9ltZQeSZmmgoSUcBwFm9OIvVP9AgQFqEEreYP9zzHSZYPltAFDxF52gkTjbcO9ACiuKpOjsBP2GsYvLuJxApwllpOMtXUMgRqFtF4inRJdBTMyllAhDu7XmHFpES0N7ep4+4IX78/HDrmgnaWTalc49adZA3de//3Hz/+BWtjX7C4A5iow1QCHu5IauCfdLa8J1ShhRbqxsMKS+sne4atlY9X94JEFUGnYj6pIj2SmNKSfx7Ue715qTK1X0HvS4ON3DfiR73TIjl8tkKpVapb3WmfNRB+xuh8OIcjDHk4vNhY6Uz4A+SkgSIXGA45AgoDQzaHNKknmKQp+Mlkre2+FISb+JoTB+XPJoxxxSaf6vSHLvMWth+3JPGTNr9jry+U0ks7bchDSRwdI3ZE2kkgZvyIimGgX/PEbZj+M3uCqnwRm0oq7WmCNgAvb4NsUOJC4aEJgotcZgYdgeP0Fuqws53JedfR7xhnoNPfS4dTr7DjL4ySntslugALtgQzX4vWidnhL3ND3xlPdw17bdVRljUep9uPlsLUVNuLhROj4azVbAaBldsEalzEr1mUmzs1KbrrAV1mmTbuUOHF0cTxhPtjaiJ2I+zeBca2tWpunqr6vIqmsltV4E/M+m4zA74wIcbicseaV7WJCR0D82PQi4bOyQ25RchOn1H16j07Bbf5SYjilnNs/5jQkiPEQ5358S1brwb9laelYjf2a1lHSc7QjsC2HguD0sey+fMdlUG/1qF639967RFTfMvrvy3hpK7DiuldJ96LKP15VxZ0ktnTPDYl8eon3sdyIOdySTRi21W0nluEcN7DCA//+ZzF0/0N84sn7dUnLVImkB769q7/Ah/7EIkJtol6it+V00NfuKrNPcuYhqU61Gsrd3O5CASjbqP0uLDfraPjIChIHQy2ogJG1mIeu1QizU3dDQ5SRUvc5Dp1WzR3cZsiOL0oEVJwDCmFdIen2AbMw3QuFGDzSMxrKx5lEPQacrMXnKLgvxprORI1kgDSpLkKiMYsMr4rzvKQ8SDckDSA8FZJ7RJCYaQdwiU6Db4cqstiKKeN97WPO6RwgMMWdB2AKuhgIBBk3OfEgVDkMIs8LpxMIHOVQWBHGO4RCZgGggxRKIUDEUticLcalAuSCLWjviwOLrQgJkvFbb+Y0jEM6SVXDhITcHV21iK9IWTef+FMs8nYcgYBDGMUFQCwggAd3IMJr5G/kgKsHBaFEwVXDiYbguOuZiCT6DGdBJ2zVHihzF4LEAC2kh015H1izBuKyj6LBIqA4AAAA=') format('woff2'),
+  url('iconfont.woff?t=1599181519125') format('woff'),
+  url('iconfont.ttf?t=1599181519125') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1599181519125#iconfont-midea') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont-midea {
+  font-family: "iconfont-midea" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconClouduploadstorage:before {
+  content: "\e9ce";
+}
+
+.iconloading:before {
+  content: "\e8fd";
+}
+

@@ -1,0 +1,37 @@
+.icon-success(@width:21px,@backgroundColor:@mideaBlue,@iconColor:#fff){
+  position: relative;
+  display: inline-block;
+  width: @width;
+  height: @width;
+  background: @backgroundColor;
+  border-radius: 100%;
+  &:after{
+    content: "";
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 50%;
+    height: 25%;
+    border: 2px solid @iconColor;
+    border-radius: 1px;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
+}
+
+.btn-primary(@bgColor: @mideaBlue, @color: @white, @borderColor: @mideaBlue, @borderRadius: 20px) {
+  display: inline-block;
+  background-color:@bgColor;
+  color: @color;
+  padding: 8px 50px;
+  margin: 0;
+  border: 2px solid @borderColor;
+  border-radius: @borderRadius;
+  height: auto;
+  // &:hover{
+  //   background-color: @color;
+  //   color: @bgColor;
+  // }
+}

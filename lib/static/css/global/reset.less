@@ -1,0 +1,38 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    color: #000;
+    font-family: Roboto,sans-serif;
+    width: 100% !important;
+    overflow: auto !important;
+}
+
+/* 选择历史记录的文字颜色和背景颜色 */
+input:-webkit-autofill {
+    -webkit-animation: autofill-fix 1s infinite!important;
+    /* 选择历史记录的文字颜色*/
+    -webkit-text-fill-color: #666;
+    -webkit-transition: background-color 50000s ease-in-out 0s!important;
+    transition: background-color 50000s ease-in-out 0s!important;
+    background-color: transparent!important;
+    background-image: none !important;
+    /* 选择历史记录的背景颜色 */
+    -webkit-box-shadow: 0 0 0 1000px transparent inset!important;
+}
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+input[type=number], input[type=password], input[type=text], textarea {
+    -webkit-appearance: none;
+}
+input:-internal-autofill-selected {
+    background-color: none !important;
+}
